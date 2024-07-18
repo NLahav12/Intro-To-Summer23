@@ -54,5 +54,11 @@ print("*")
 print("*")
 print(f"the average temperature was: {avg_temp}")
 print(f"the days with above average temperature: {above_avg}")
+print("\n")
+#bonus
+
+sorted_temperatures = sorted(temperatures)
+print(f"regular: {temperatures}\n")
+print(f"sorted: {sorted_temperatures}")
 
 
